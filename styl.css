@@ -1,0 +1,114 @@
+body {    
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+  header {
+    background-color: #1976d2;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 10px 0 0 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 15px;
+    border-radius: 5px;
+  }
+  
+  nav a:hover {
+    background-color: #145ca0;
+  }
+  
+  
+  main {
+    padding: 20px;
+  }
+  
+  section {
+    margin-bottom: 30px;
+  }
+  
+  
+  .galeria {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  
+  .galeria img {
+    max-width: 200px;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+  }
+  
+  form label {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  form input,
+  form textarea {
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  form button {
+    margin-top: 15px;
+    padding: 10px;
+    border: none;
+    background-color: #1976d2;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  form button:hover {
+    background-color: #145ca0;
+  }
+  
+  
+  footer {
+    background-color: #1976d2;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
+  @media (max-width: 600px) {
+    nav ul {
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    .galeria {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styl.css">
+    <title>Moje hobby</title>
+</head>
+<body>
+    <header>
+        <h1>Moja Strona</h1>
+        <nav>
+          <ul>
+            <li><a href="#hobby">Hobby</a></li>
+            <li><a href="#galeria">Galeria</a></li>
+            <li><a href="#kontakt">Kontakt</a></li>
+          </ul>
+        </nav>
+      </header>
+    
+      <main>
+        <section id="hobby">
+          <h2>Moje Hobby</h2>
+          <p>
+            Siatkówka to moja ulubiona dyscyplina sportowa. Lubię ją, ponieważ łączy ruch, współpracę i rywalizację w dobrej atmosferze. Gram zarówno na hali, jak i latem na boisku plażowym. Ten sport uczy pracy zespołowej, refleksu oraz szybkiego podejmowania decyzji. Dzięki regularnym treningom poprawiam kondycję i mam kontakt z innymi osobami, które dzielą tę pasję.
+          </p>
+        </section>
+        <section id="galeria">
+          <h2>Galeria</h2>
+          <div class="galeria">
+            <img src="tomek.jpg" alt="obrazek 1">
+            <img src="siatkowka1.jpg" alt="obrazek 2">
+            <img src="siatkowka2.jpg" alt="obrazek 3">
+          </div>
+        </section>
+        <section id="kontakt">
+          <h2>Formularz Kontaktowy</h2>
+          <form>
+            <label for="name">Imię:</label>
+            <input type="text" id="name" name="name" required>
+    
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+    
+            <label for="message">Wiadomość:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+    
+            <button type="submit">Wyślij</button>
+          </form>
+        </section>
+      </main>
+    
+      <footer>
+        <p>Autor: Marcin Moliński 5Ti2 2025r &copy;</p>
+      </footer>
+</body>
+</html>
